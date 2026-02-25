@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Caught Between Shadows"
-subtitle:   "The Agony and Power of Belonging Nowhere"
-author: "Rango"
+title:      "Overtime"
+subtitle:   "Clock In. Freak Out."
+author: "Mahsa"
 catalog: true
 header-img: "img/liminality.jpg"
 header-mask: 0.4
@@ -14,15 +14,17 @@ tags:
 ---
 
 
-# **Caught Between Shadows: The Agony and Power of Belonging Nowhere**
+# **Overtime**
 
-To belong nowhere is to inhabit the space between, a realm uncharted, unclaimed, unloved. It is to feel the ground beneath your feet crumble when you reach for the warmth of community. Neither here nor there, you float in the liminal—a shadow between worlds, both defined by contrast and erased by its sharp edges. It is a curse whispered by life itself: You are too much, and yet never enough.
+ is a 3D first-person horror-comedy game that blends tense exploration, 
+absurd humor, and atmospheric storytelling. Built in Unreal Engine,
+the project focuses on creating a stylized gameplay experience where eerie environments, 
+interactive systems, and comedic timing work together to keep players both uneasy and entertained. 
+The game combines FPS mechanics with inventory systems, environmental interactions,
+and narrative-driven moments to deliver a weird, unsettling, and intentionally playful tone.
 
-Belonging is a primal hunger, etched into the bones of humanity. We are creatures of tribes and borders, drawing lines to anchor ourselves in identity. Yet for some, those lines are not a refuge but a snare. They tangle and tighten, pulling in opposite directions until the soul splinters. To be both and neither is to walk this fractured path, where every glance, every question, every silence reminds you that you are an anomaly—a bridge stretched over an abyss.
 
-You try to mold yourself into shapes others can understand, but their gaze slips past you, searching for something they can categorize. You are a contradiction: a reminder that their carefully drawn borders are illusions. And so, they reject you—not with malice, but with the quiet certainty of a world that cannot comprehend what it refuses to name.
-
-## **The Void of the In-Between: A Place Without Anchors**
+<!-- ## **The Void of the In-Between: A Place Without Anchors**
 
 ### The Liminal Abyss: A Space Without Gravity
 
@@ -331,3 +333,5 @@ The hybrid has always been a bridge, but a bridge is meaningless without those w
 The invincible summer is not theirs alone. It was never meant to be.
 
 It is for all of us.
+
+-->

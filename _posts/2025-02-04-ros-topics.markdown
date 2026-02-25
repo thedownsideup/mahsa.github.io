@@ -1,39 +1,44 @@
 ---
 layout: post
-title: "ROS Topics: The Wrong Tool for the Job (A Love Letter to Proper Abstractions)"
-author: "Rango"
+title: "Swordmonkey Studios (Contract)"
+author: "Mahsa"
 catalog: true
 header-img: "img/dataflow.png"
 header-mask: 0.4
 tags:
-  - Robotics
-  - ROS2
-  - Topics
-  - Pub Sub Architecture
-  - Clean Coding
-  - Software
+  - Gameplay programming
+  - System architecture
+  - Feature Implementation
+  - Clean Code
+  - Collaboration Workflows
+  - Online
+  - Social
 ---
 
-# ROS Topics: The Wrong Tool for the Job (A Love Letter to Proper Abstractions)
+# Swordmonkey Studios (Contract)
 
-## Introduction
-There are few things in life as certain as death, taxes, and engineers misusing ROS topics for things they shouldn't. If you've ever seen a team control a robot by spamming topics instead of using actions or services, then congratulations! You've witnessed one of the most common (and painful) anti-patterns in ROS development.
-
-Today, we’re going to take a humorous but educational dive into why using topics for command execution is a terrible idea, why your team might be doing it, and how to fix it before your robot files a formal HR complaint against you.
+## Gameplay Programmer / Software Engineer
+(Jan 2026 – Present) <br>
+Worked as a gameplay programmer on a live game project, building and refining reusable gameplay systems with a strong focus on clean architecture,
+maintainability, and feature scalability. Collaborated remotely with the team to implement features from technical/design requirements,
+support planning and task breakdowns, and communicate technical tradeoffs clearly.
 
 ---
+
+### Responsibilities
+- Built and refined reusable gameplay components and systems 
+- Implemented new gameplay features from design/technical requirements 
+- Contributed to technical planning and implementation workflows 
+- Worked in a remote team environment with clear progress and issue communication
+
+---
+<!--
 
 ## The Problem: Topics Are Not Commands (Stop Spamming!)
 A topic in ROS (whether in ROS 1 or ROS 2) is best suited for *continuous streams* of data. Think sensor readings, real-time telemetry, or anything that’s being published at a high frequency with no need for acknowledgment.
 
 However, some teams (maybe yours!) decide to use topics for sending commands, like telling a robot to move from A to B. And how do they make sure the message is received? By **spamming the topic** over and over again. Because, hey, if one message is good, then a hundred must be better, right?
 
-### Why This is Dumb:
-1. **No feedback:** You have no idea if the robot actually received the command unless you add another topic to confirm it (which is just doubling down on bad design).
-2. **No guarantee of execution:** Topics are fire-and-forget. If the message gets lost, too bad, try again (or spam harder!).
-3. **No tracking of execution state:** Is the robot still moving? Did it reach its goal? Who knows! Maybe it’s just doing donuts in the parking lot.
-
----
 
 ## The Alternative: Use Actions (Like a Sane Person)
 If you’re sending a command that requires execution over time (like moving to a goal), **actions** exist *specifically* for this purpose. 
@@ -82,3 +87,4 @@ If your team is guilty of this, don’t worry—you can fix it. And when you do,
 Go forth and use actions. Or at the very least, stop the spam.
 
 Happy coding!
+-->
