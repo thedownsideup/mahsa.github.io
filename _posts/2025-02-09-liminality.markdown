@@ -23,6 +23,14 @@ interactive systems, and comedic timing work together to keep players both uneas
 The game combines FPS mechanics with inventory systems, environmental interactions,
 and narrative-driven moments to deliver a weird, unsettling, and intentionally playful tone.
 
+---
+
+### What I’m focusing on technically:
+
+- C++ gameplay logic with Blueprint-driven visuals
+- Reusable gameplay systems and interaction flow
+- Inventory / UI-oriented gameplay systems
+- Iteration on moment-to-moment feel and player feedback
 
 <!-- ## **The Void of the In-Between: A Place Without Anchors**
 
